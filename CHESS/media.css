@@ -1,0 +1,28 @@
+@media print {
+   [title]
+   {
+      text-decoration: none;
+   }
+
+   [href$="botvinnik.shtml"]::before {
+         content: "ссылка ";  
+       
+   }
+   [href$="botvinnik.shtml"]::after {
+      content: " на https://chesspro.ru/statistic/botvinnik.shtml ";
+   }
+   [href$="karpov.shtml"]::before {
+      content: "ссылка ";  
+    
+}
+[href$="karpov.shtml"]::after {
+   content: " на https://chesspro.ru/statistic/karpov.shtml ";
+}
+[href$="kasparov.shtml"]::before {
+   content: "ссылка ";  
+ 
+}
+[href$="kasparov.shtml"]::after {
+content: " на https://chesspro.ru/statistic/kasparov.shtml ";
+}
+}

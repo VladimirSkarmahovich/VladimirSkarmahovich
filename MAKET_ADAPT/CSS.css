@@ -1,0 +1,67 @@
+.header, .footer {
+background-color: rgb(0, 217, 255);
+overflow: hidden;
+
+}
+.header {
+   margin-top: 50px;
+   
+}
+h2, a {
+   color: blue;
+   text-align: center;
+}
+h4, h3 {
+   text-align: center;
+   
+}
+.conteiner {
+    background-color: rgb(233, 185, 29);
+   }
+   img, .menu {
+      float: left;
+   }
+.content {
+   overflow: hidden;
+   background-color: white;
+   background-image: url(img/ball.png);background-position: right top; background-repeat: repeat-y;
+   background-size: 60px 60px; 
+   
+}   
+img {
+   margin-left: 20px;
+   margin-right: 20px;
+}
+p {
+   margin-left: 20px;
+}
+.menu 
+{
+   width: 20%;
+}
+@media all and (max-width: 780px)
+{
+.menu
+{
+   width: 33%;
+}
+
+img {
+   width: 100%;
+   margin-bottom: 10px;
+   }
+}
+@media all and (max-width: 575px)
+{
+   .menu {
+
+   float: none;
+   width: 100%;}
+
+    a
+{ font-size: 24px;}
+}
+.conteiner {
+   
+   overflow: hidden;
+}
